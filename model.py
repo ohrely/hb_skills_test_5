@@ -15,13 +15,22 @@ db = SQLAlchemy()
 class Model(db.Model):
 
     __tablename__ = "models"
-    pass
+
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    year = db.Column(db.Integer, nullable=False)
+    brand_name = (db.String(50))
+    name = (db.String(50), db.String(50))
 
 
 class Brand(db.Model):
 
     __tablename__ = "brands"
-    pass
+
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    name = (db.String(50), db.String(50))
+    founded = db.Column(db.Integer)
+    headquarters = (db.String(50))
+    discontinued = db.Column(db.Integer)
 
 # End Part 1
 ##############################################################################

@@ -23,19 +23,27 @@ init_app()
 
 # Get the brand with the **id** of 8.
 
+
 # Get all models with the **name** Corvette and the **brand_name** Chevrolet.
+
 
 # Get all models that are older than 1960.
 
+
 # Get all brands that were founded after 1920.
+
 
 # Get all models with names that begin with "Cor".
 
+
 # Get all brands with that were founded in 1903 and that are not yet discontinued.
+
 
 # Get all brands with that are either discontinued or founded before 1950.
 
+
 # Get any model whose brand_name is not Chevrolet.
+
 
 # Fill in the following functions. (See directions for more info.)
 
